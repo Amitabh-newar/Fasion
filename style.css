@@ -1,0 +1,248 @@
+*, ::before, 
+    ::after{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Bebas Neue', cursive;
+        font-family: 'Lato', sans-serif;
+        font-family: 'Roboto', sans-serif;
+
+    }
+
+    .container {
+        max-width: 1440px;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    section {
+        margin-bottom: 25px;
+    }
+
+    .logo-area {
+        width: 312px;
+        height: 53px;
+        padding-top: 10px;
+    }
+
+    img.image {
+        width: 100%;
+        height: 100%;
+    }
+
+    ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    li {
+        list-style: none;
+        margin-right: 33px;
+        padding-top: 10px;
+        font-size: 21px;
+        cursor: pointer;
+    }
+
+    li a {
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    .banner-area {
+       /* width: 100%; */
+        padding-top: 100px;
+        display: flex;
+        justify-content: space-evenly;    
+        align-items: center;
+    }
+
+    h2 {
+        font-size: 70px;
+        font-weight: 700;
+        font-family: 'Bebas Neue', cursive;
+        color: #FABE4C;
+        line-height: 2;
+        
+    }
+
+    h3 {
+        font-size: 70px;
+        font-weight: 700;
+        font-family: 'Bebas Neue', cursive;
+        line-height: 0;
+    }
+    .banner-area p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 25px;
+        padding-top: 35px;
+    }
+
+    .banner-img {
+        max-width: 549px;
+        padding-bottom: 15px;
+    }
+
+    .container.product-tag {
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 120px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .container.product-tag h1 {
+        font-size: 48px;
+        font-weight: 700;
+        font-family: 'Bebas Neue';
+    }
+
+    .product-list {
+        background: #ffffff;
+        padding: 5px;
+        /* box-shadow: 0px 9px 16px -14px; */
+        transition: 1s;
+    }
+
+    .product-list:hover{
+        transform: scale(1.2);
+        box-shadow: 0px 9px 40px -14px;
+    }
+
+    .product-img {
+        max-width: 293px;
+        background: #f1f1f1;
+        border-radius: 15px;
+        text-align: center;
+    
+    }
+
+    
+    
+    .product-img img {
+        width: 193px;
+        text-align: center;
+        cursor: zoom-in;
+    }
+
+    /* .product-img img:hover{ */
+        transform: scale(1.1);
+    }
+    
+    
+
+    .product-text  h1{
+        font-size: 24px;
+        font-weight: 700;
+        font-family: 'Roboto';
+    }
+
+    .product-text p {
+        font-size: 16px;
+        font-weight: 400;
+        font-family: 'Roboto';
+        line-height: 27px;
+        width: 299px;
+    }
+
+    .product-list-bottom {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .product-list-bottom h2 {
+        font-size: 50px;
+        height: 0;
+        width: 0;
+        line-height: 1;
+    }
+
+    button {
+        width: 115px;
+        height: 44px;
+        background: #9BB439;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 1px 3px 7px -3px;
+    }
+
+    .product-list-bottom button i.fa-solid.fa-cart-shopping {
+        font-size: 17px;
+        padding-right: 5px;
+    }
+
+    
+
+    button a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 15px;
+    }
+
+
+    /* footer-area */
+
+    .container.footer-area {
+        padding-top: 80px;
+        background: #FFFBF0;
+        margin-bottom: 25px;
+    }
+
+    .footer-logo-txt-area1 {
+        display: flex;
+        background: #fff;
+        margin-bottom: 25px;
+        padding: 5px;
+        box-sizing: border-box;
+        border-radius: 5px;
+        box-shadow: 3px 8px 13px -13px;
+    }
+
+    .footer-img-area {
+        max-width: 78px;
+       
+    }
+
+    .footer-img-area img {
+
+        width: 100%;
+
+    }
+
+    .footer-txt-area {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        padding-bottom: 15px;
+    }
+
+    .footer-txt-area h2 {
+        font-size: 25px;
+        padding-left: 15px;
+        font-weight: 700;
+        color: #000;
+    }
+
+    .footer-txt-area p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        padding-left: 15px;
+        width: 276px;
+    }
+
+
+
+    .footer-image {
+        max-width: 599px;
+        max-height: 354px;
+    }
+
+    .footer-image img{
+        width: 100%;
+        height: 100%;
+    }
