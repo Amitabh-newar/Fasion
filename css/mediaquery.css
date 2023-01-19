@@ -107,8 +107,8 @@
     }
 
     .footer-image {
-        max-width: 599px;
-        max-height: 354px;
+        max-width: 399px;
+        max-height: 210px;
     }
 }           
 
@@ -143,20 +143,18 @@
     .banner-txt h2 {
         font-size: 89px;
         line-height: 83px;
-        text-align: center;
-        padding-left: 95px;
+        padding-left: 77px;
     }
-
     .banner-txt h3 {
         font-size: 89px;
         padding-left: 77px;
         line-height: 74px;
-        text-align: center;
+      
     }
 
     .banner-area p {
-        padding-left: 90px;
-        text-align: center;
+        padding-left: 77px;
+        
     }
 
     .banner-img {

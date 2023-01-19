@@ -1,5 +1,5 @@
-*, ::before, 
-    ::after{
+*, *::before, 
+    *::after{
         padding: 0;
         margin: 0;
         box-sizing: border-box;
@@ -128,7 +128,7 @@
         cursor: zoom-in;
     }
 
-    /* .product-img img:hover{ */
+    .product-img img:hover{
         transform: scale(1.1);
     }
     
